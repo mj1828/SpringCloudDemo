@@ -1,15 +1,11 @@
-server:
-  port: 8080
 spring:
-  application:
-    name: common-config
   cloud:
     config:
       server:
         git:
           uri: https://github.com/mj1828/common-config.git
-          username: mj_java@163.com
-          password: zhangyc0901
+          username: *****
+          password: *****
           default-label: master
           search-paths: config
 
