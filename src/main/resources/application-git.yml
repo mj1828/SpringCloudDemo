@@ -4,8 +4,9 @@ spring:
       server:
         git:
           uri: https://github.com/mj1828/common-config.git
-          username: *****
-          password: *****
+          username: mj_java@163.com
+          password: zhangyc0901
           default-label: master
-          search-paths: config
+          search-paths: src/main/resources/config/
+      fail-fast: true
 
