@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   application:
-    name: config
+    name: common-config
   cloud:
     config:
       server:
